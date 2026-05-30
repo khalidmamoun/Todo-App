@@ -1,0 +1,41 @@
+.Todo {
+  transition: all 0.2s ease-in-out !important ;
+}
+.Todo:hover {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 20px 100px 10px rgb(128, 128, 128) !important;
+}
+
+.btn {
+  transition: all 0.1s !important ;
+}
+
+.btn:hover {
+  background: rgba(216, 204, 204, 0.377) !important;
+}
+
+@font-face {
+  font-family: font;
+  src: url("/public/fonts/Changa-Bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: font;
+  src: url("/public/fonts/Changa-ExtraBold.ttf");
+    font-weight: 900;
+
+}
+@font-face {
+  font-family: font;
+  src: url("/public/fonts/Changa-Light.ttf");
+    font-weight: 100;
+
+}
+@font-face {
+  font-family: font;
+  src: url("/public/fonts/Changa-Regular.ttf");
+      font-weight: 200;
+
+}
